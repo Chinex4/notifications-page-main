@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+    body {
+        font-family: 'Fira Sans', sans-serif;
+    }
+} */
+@font-face {
+    font-family: 'JakartaSans';
+    src: url('./fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'JakartaBold';
+    src: url('./fonts/static/PlusJakartaSans-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'JakartaMedium';
+    src: url('./fonts/static/PlusJakartaSans-Medium.ttf');
+}

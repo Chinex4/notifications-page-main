@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Page | By Chinex</title>
+    <link rel="stylesheet" href="css/output1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Hanken+Grotesk" rel="stylesheet">
+</head>
+
+<body class="antialiased">
+    <div class="w-full min-h-screen flex justify-center items-center md:py-8 bg-veryLightGrayishBlue">
+        <div class="w-full min-h-screen md:w-[40%] p-5 md:min-h-[550px] bg-white md:rounded-lg md:shadow-lg space-y-5">
+            <header class="flex justify-between">
+                <div class="flex space-x-2">
+                    <p class="font-jakartaBold font-bold text-lg">Notifications</p>
+                    <div id="number" class="w-8 h-6 bg-blueish grid place-items-center rounded-md">
+                        <p class="text-white">3</p>
+                    </div>
+                </div>
+                <a class="cursor-pointer text-grayishBlue hover:text-blueish" id="mark">Mark all as read</a>
+            </header>
+
+            <main class="w-full space-y-2 font-jakartaMedium">
+                <!-- Notification 1 -->
+                <div class="unread p-3 flex space-x-3 bg-veryLightGrayishBlue rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-mark-webber.webp" alt="mark">
+                    <div>
+                        <p class="text-darkGrayishBlue">
+                            <a class="cursor-pointer font-bold text-black hover:text-blueish">Mark Webber</a> reacted to your recent post <a
+                                class="cursor-pointer font-bold hover:text-blueish">My first tournament today!</a>
+                            <!-- <div class="w-4 h-4 rounded-full bg-redish"></div> -->
+                        </p>
+                        <p class="text-grayishBlue">1m ago</p>
+                    </div>
+                </div>
+                <!-- Notification 2 -->
+                <div class="unread p-3 flex space-x-3 bg-veryLightGrayishBlue rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-angela-gray.webp" alt="angela">
+                    <div>
+                        <p class="text-darkGrayishBlue">
+                            <a class="cursor-pointer font-bold text-black hover:text-blueish">Angela Gray</a> followed you
+                            <a class="cursor-pointer w-2 h-2 rounded-full bg-redish"></a>
+                        </p>
+                        <p class="text-grayishBlue">5m ago</p>
+                    </div>
+                </div>
+                <!-- Notification 3 -->
+                <div class="unread p-3 flex space-x-3 bg-veryLightGrayishBlue rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-jacob-thompson.webp" alt="jacob">
+                    <div>
+                        <p class="text-darkGrayishBlue">
+                            <a class="cursor-pointer font-bold text-black hover:text-blueish">Jacob Thompson</a> has joined your group <a
+                                class="cursor-pointer font-bold text-blueish">Chess Club</a>
+                            <a class="w-2 h-2 rounded-full bg-redish"></a>
+                        </p>
+                        <p class="text-grayishBlue">1day ago</p>
+                    </div>
+                </div>
+                <!-- Notification 4 -->
+                <div class="p-3 flex space-x-3 rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-rizky-hasanuddin.webp" alt="Rizky">
+                    <div>
+                        <p class="text-darkGrayishBlue">
+                            <a class="cursor-pointer font-bold text-black hover:text-blueish">Rizky Hasanuddin</a> sent you a private message
+                        </p>
+                        <p class="text-grayishBlue">5days ago</p>
+                        <a class="cursor-pointer block mt-2 p-3 border border-lightgrayishBlue2 rounded-md hover:bg-lightgrayishBlue2">
+                            <p class="text-darkGrayishBlue">
+                                Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                                I'm already having lots of fun and improving my game.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Notification 5 -->
+                <div class="p-3 flex space-x-3 rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-kimberly-smith.webp" alt="Kimberly">
+                    <div class="w-full">
+                        <div class="w-full flex justify-between">
+                            <p class="text-darkGrayishBlue">
+                                <a class="cursor-pointer font-bold text-black hover:text-blueish">Kimberly Smith</a> comented on your picture
+                            </p>
+                            <img class="w-11" src="images/image-chess.webp" alt="">
+                        </div>
+
+                        <p class="text-grayishBlue">1week ago</p>
+
+                    </div>
+                </div>
+                <!-- Notification 6 -->
+                <div class="p-3 flex space-x-3 rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-nathan-peterson.webp" alt="Nathan">
+                    <div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-darkGrayishBlue">
+                                <a class="cursor-pointer font-bold text-black hover:text-blueish">Nathan Peterson</a> reacted to your recent post <span class="font-semibold">5 end-game strategies to increase your win rate</span>
+                            </p>
+                        </div>
+                        <p class="text-grayishBlue">2weeks ago</p>
+                    </div>
+                </div>
+                <!-- Notification 7 -->
+                <div class="p-3 flex space-x-3 rounded-lg">
+                    <img class="w-10 h-10" src="images/avatar-anna-kim.webp" alt="anna-kim">
+                    <div>
+                        <div class="w-full flex justify-between">
+                            <p class="text-darkGrayishBlue">
+                                <a class="cursor-pointer font-bold text-black hover:text-blueish">Anna Kim</a> left the group <a class="font-bold text-blueish">Chess Club</a>
+                            </p>
+                        </div>
+                        <p class="text-grayishBlue">2weeks ago</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
